@@ -191,10 +191,11 @@ const sharedOpts: Record<string, Fig.Option> = {
   output: {
     name: ["-o", "--output"],
     description:
-      "Output format. One of: json|yaml|name|go-template|go-template-file|template|templatefile|jsonpath|jsonpath-file",
+      "Output format. One of: wide|json|yaml|name|go-template|go-template-file|template|templatefile|jsonpath|jsonpath-file",
     args: {
       name: "Output Format",
       suggestions: [
+        "wide",
         "json",
         "yaml",
         "name",
